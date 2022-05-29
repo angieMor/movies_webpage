@@ -1,0 +1,88 @@
+/*PrincipalWeb && Login && part of Movies.php*/
+
+*{
+    font-family: 'Poppins';
+    font-size: 23px;
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 100%;
+    overflow: hidden;
+}
+
+.backgroundColor {
+    background-color: rgb(179, 80, 236);
+    color:white;
+}
+
+h1, h2 {
+    font-size: 35px;
+}
+
+.buttons {
+    justify-content: center;
+    display:flex;
+}
+.labels {
+    text-align: center;
+}
+
+.websitedesc {
+    text-align: center;
+    margin: 50px;
+}
+
+.error {
+    font-size: 13px;
+    color: red;
+    height: 13px;
+}
+
+.col-image {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.input {
+    margin: 15px;
+}
+
+.input1 {
+    margin: 30px;
+}
+/*-----------------------------------------------------------------------*/
+
+                    /*Movies.php*/
+.logout {
+    text-align: center;
+    margin: 15px;
+}
+
+.notification {
+    font-size: 20px;
+    color: purple;
+    height: 20px;
+}
+
+.fields {
+    margin: 12px;
+}
+
+.filters {
+    margin: 12px;
+    font-size:13px;
+}
+
+.movies {
+    font-size: 15px;
+    column-gap: 3em;
+    columns: 2;
+    text-align: center;
+}
